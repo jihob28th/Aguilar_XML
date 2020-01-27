@@ -23,16 +23,11 @@
 
     
 ?>
-<html>
-    <head>
-        <title> </title>
-    </head>
-    <body>
+
         <ul>
             <li><?php echo $shoe_Name1 ?> </li>
             <li><?php echo $shoe_Brand1 ?> </li>
             <li><?php echo $shoe_Type1 ?> </li>
             <li><?php echo $shoe_Cost1 ?> </li>
         </ul>
-    </body>
-</html>
+
