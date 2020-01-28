@@ -1,6 +1,6 @@
 <?php
  $domOBJ = new DOMDocument();
- $domOBJ->load("https://xml-aguilar.herokuapp.com/");//XML page URL
+ $domOBJ->load("https://xml-aguilar.herokuapp.com/rss.php");//XML page URL
  
  $content = $domOBJ->getElementsByTagName("shoes");
  
