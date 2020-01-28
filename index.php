@@ -17,9 +17,9 @@
   
    echo "<li>$name 
             <ul>
-                <li>$brand</li>
-		<li>$type</li>
-		<li>$cost</li>
+                <li>Brand: $brand</li>
+		<li>Type: $type</li>
+		<li>Cost: $cost</li>
             </ul>
         </li>";
  }
