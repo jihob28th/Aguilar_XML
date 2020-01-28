@@ -11,10 +11,10 @@
         extract ($records);
 
         $rss .= '<shoes>';
-        $shoe_Name1 .= '<name>' . $shoe_Name . '</name>';
-        $shoe_Brand1 .= '<brand>' . $shoe_Brand . '</brand>';
-        $shoe_Type1 .= '<type>' . $shoe_Type . '</type>';
-        $shoe_Cost1 .= '<cost>' . $shoe_Cost . '</cost>';
+        $rss .= '<name>' . $shoe_Name . '</name>';
+        $rss .= '<brand>' . $shoe_Brand . '</brand>';
+        $rss .= '<type>' . $shoe_Type . '</type>';
+        $rss .= '<cost>' . $shoe_Cost . '</cost>';
         $rss .= '</shoes>';
     }
 
